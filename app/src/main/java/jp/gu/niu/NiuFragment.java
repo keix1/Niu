@@ -1,5 +1,6 @@
 package jp.gu.niu;
 
+import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -17,7 +18,7 @@ import com.google.gson.Gson;
 
 public class NiuFragment extends Fragment {
 
-    Thinker thinker = new Thinker();
+    Thinker thinker = null;
 
     // Viewが生成し終わった時に呼ばれるメソッド
     @Override
@@ -26,11 +27,12 @@ public class NiuFragment extends Fragment {
         // TextViewをひも付けます
 
         Toast.makeText(getActivity(), "にう！", Toast.LENGTH_SHORT).show();
+        thinker = new Thinker(getActivity());
     }
 
-//    public String getReply(String userWord) {
-//        return thinker.getReply(userWord);
-//    }
+    public String getReply(String userWord) {
+        return thinker.getReply(userWord);
+    }
 
     public void say() {
         Toast.makeText(getActivity(), "にう！", Toast.LENGTH_SHORT).show();

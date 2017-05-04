@@ -2,6 +2,7 @@ package jp.gu.niu;
 
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 
 import com.google.gson.Gson;
 
@@ -15,22 +16,30 @@ import java.util.Map;
  */
 
 public class Thinker {
-    String word = "";
     Map<String, String> brain = new HashMap<>();
     int nextTask = 0;
     String keyWord = "";
     String valueWord = "";
+    Context context = null;
+    SharedPreferences prefs = null;
 
-    //SharedPreferences pref = null;
+    public Thinker(Context context){
+        this.context = context;
+        this.prefs = PreferenceManager.getDefaultSharedPreferences(context);
 
-    public Thinker(){
-        //this.pref = pref;
+        Gson gson = new Gson();
+        String st = prefs.getString("brain", "");
+        //Map<String, String> brainBuf = gson.fromJson(st, Map.class);
+        //if(brainBuf != null)
+         //   brain = brainBuf;
+        //else {
 
-        //初期設定
-        brain.put("にう", "おまえもにうか");
-        brain.put("はい", "首を縦に振るだけの人生か");
-        brain.put("いいえ", "上司に歯向かうのかクビだ");
-        brain.put("others", "にう８っちゃいだからわかんなーい");
+            //初期設定
+            brain.put("にう", "おまえもにうか");
+            brain.put("はい", "首を縦に振るだけの人生か");
+            brain.put("いいえ", "上司に歯向かうのかクビだ");
+            brain.put("others", "にう８っちゃいだからわかんなーい");
+       // }
 
     }
 
@@ -66,9 +75,8 @@ public class Thinker {
 
     public void learn(String key, String value) {
         brain.put(key, value);
-        //Gson gson = new Gson();
-        //gson.toJson(brain);
-        //pref.edit().putString("brain", gson.toJson(brain)).commit();
+        Gson gson = new Gson();
+        prefs.edit().putString("brain", gson.toJson(brain)).apply();
     }
 
     public String thinkBase(String word) {

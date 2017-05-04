@@ -3,6 +3,7 @@ package jp.gu.niu;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.FragmentTransaction;
@@ -68,7 +69,7 @@ public class MainActivity extends AppCompatActivity
                 if ((event.getAction() == KeyEvent.ACTION_DOWN) && (keyCode == KeyEvent.KEYCODE_ENTER)) {
                     inputMethodManager.hideSoftInputFromWindow(input_word.getWindowToken(), InputMethodManager.RESULT_UNCHANGED_SHOWN);
 
-                    //にうとなく
+                    //にうと鳴く
                     getNiuFragment().say();
 
                     //にうの意志をテキストベースで回収し、表示
@@ -87,10 +88,6 @@ public class MainActivity extends AppCompatActivity
 
         transaction.add(niu, "NIU");
         transaction.commit();
-
-    }
-
-    public void saveBrain() {
 
     }
 
