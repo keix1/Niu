@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\7a6411b6701f8e40fdeb30c735e12c3f2a50b40e\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\45ee2e1ef87b0b9f04cda3a8ff3bce9828535e26\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_13f0c70dc31244ec67b2768138153c2bc9bfee44.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_8baf0b72e4e940de9524c6c7563003a746c7f645.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\58942fc3c07e55d187e08b6d66910124d972ef37\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_5217a6a841c2936a61613d7e6810958a3d5f30c8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\1a18d975b062abc76e264d1d983d2c03ab97a874\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_360732d655b86a1b31905c9c02c61a36d60f0507.jar" />
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_9a5cbbc66674fa5ecf2925213ac0ea7555d71542.jar" />
     </item>
     <item
         is-multidex="false"
@@ -44,106 +17,133 @@
         optimize="true"
         revision="25.0.3"
         sha1="a60a5e993c98c864010053cb901b7eab25306568">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\gson-2.2.4_313aff129984a0a45e086871ec03bfcc02e7284e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\07d04196f8c8072cfaee2c5ad41859cb150512b2\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\7eccbea6f70a3d44a1ae5109e19fdfa61dc0ecf0\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_8c02365faceb3abcdbec55ff29978eebbe831814.jar" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_aabe15722848e47295e33507788f9a85f5c49f1b.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\58ba5b7673525f4e43fdc95565e601f19bbb2dc7\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_b35a9c0efb11e20d9d4868171a8a18968bf64dcc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\289cb5667b9cb806f83c58fd2d9d192a8a8ff838\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_c0cfc772069dcb1b35d3c724f4db1cdc81a8d854.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\cd1750b2b75275efebde7e0f6a22cddba5d6c990\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\01d47c5d8c6f90c26cbe899598aeb989aca3bc36\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_1d17dbe90a84ec9ff593301cbb10fb07a764fe90.jar" />
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_3af9246be32f47bb3ac4eb5e511c6f83d2298df8.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\b7cf6f7f5b6e25b8e8c240a9439af20258c935cc\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\86780d3079d79c2c180f6c126e3ca867e0fde9c4\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_cc5805acd06ff464af76c57cbb97469a9b9faa31.jar" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_2369afab570034390d7c059b20c4d8fa955e3711.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\cd8ae4a291c736789d71118f151f31ec17571f50\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_a1cdeba9fe5e073b262fa4ccd2965f3346e61016.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\e022b957e010b50c27a384ead658ec2a35ef4ee0\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\602f16a51013c51afd3a1c674d86358b9c01d0f8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_db086d4e83b26f922da5cec236e93976f617f54c.jar" />
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_a7fcf15a9f64242e9caaccbc243b04f8796cc02a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\8e8245962c7d88639065dc0ba126f0c0ecc55319\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\4e52a849b46b041672abd2492f4421204c59fd44\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_82818024b1dcdd62e587d06b04de7bafadd06392.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\e33952a4e9565906a005b4055c4e27694904a36d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_6328f51bd599a3ec835664379a381e1b7e8c7b65.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\ba4f2b3ae04fc4354a054637fa1fceae38374bd8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_021160871f873319a81f18a467800aaee3ac4494.jar" />
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_8815040654540080aaf7fdc81df76ff2e97a5eb4.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\xkei4\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_d61805de6ed1740530815a0965ea34c6748c5128.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\d1f2e88cef8c88d079d346f0337bdb10e2644110\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.3"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_f573b8e508451870c7a9252ac8a2ee8163e254fb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\xkei4\.android\build-cache\bbf4ff866ac9d2b5f7dedd334cf46e2416ee83b2\output\jars\classes.jar"
+        jar="C:\Users\keiichi\.android\build-cache\18a79b9fdcf42737d54e12c8509251bb8497a845\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.3"
         sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\xkei4\AndroidStudioProjects\Niu\app\build\intermediates\pre-dexed\debug\classes_76159e7448369352c3abedfa6ecf6bd5acd3e16b.jar" />
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_fc7ad4f0d66763e7656d4ba5bb7eec5fd850b573.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\b9ba04537b4958ab0051ca33ae19e6a3a2595e32\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_70faaa19995e4d333ceebab2458e2f8b05bd2f71.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\519521efa48d2c855430dc389e756db610669955\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_6a3cca40c7343badb5c4c5e6ac41568d68a38abc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\4cc9c7cb1e888a34e1352e9189705c8986cf7a36\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_6d657b7b7de5919a0957332b2312ec34160c94a1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_f88fdf7b3af7e52d8a7151dd544904e1c4793da4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\.android\build-cache\4b149f69f070e775d7f8f1bfbdd08d1ca3b779a9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\classes_7ad7bbed6cc3ee432b7a009f71af8d3fe6a4e672.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\keiichi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_be7290515e107b1b1cf3c7635590930b65b1e1ce.jar" />
     </item>
 
 </items>

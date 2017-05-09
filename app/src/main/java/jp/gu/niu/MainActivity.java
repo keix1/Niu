@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity
 
     private InputMethodManager inputMethodManager;
 
+    private Niu niu = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -55,8 +57,14 @@ public class MainActivity extends AppCompatActivity
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
-        //TODO: 文字列入力して返答するGUI
 
+        //TODO: SharedPreferenceをNiuに渡す
+        //SharedPreferences sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
+        niu = new Niu(this);
+
+
+
+        //文字列入力して返答するGUI
         output_word = (TextView) findViewById(R.id.output_word);
         output_word.setText("にう に なんでも はなして ね！");
 
@@ -69,10 +77,11 @@ public class MainActivity extends AppCompatActivity
                     inputMethodManager.hideSoftInputFromWindow(input_word.getWindowToken(), InputMethodManager.RESULT_UNCHANGED_SHOWN);
 
                     //にうとなく
-                    getNiuFragment().say();
+                    //getNiuFragment().say();
+                    niu.say();
 
                     //にうの意志をテキストベースで回収し、表示
-                    output_word.setText(getNiuFragment().getWill(input_word.getText().toString()));
+                    output_word.setText(niu.getWill(input_word.getText().toString()));
                     input_word.getEditableText().clear();
 
                     return true;
@@ -82,11 +91,10 @@ public class MainActivity extends AppCompatActivity
         });
 
         //フラグメント関連処理
-        NiuFragment niu = new NiuFragment();
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-
-        transaction.add(niu, "NIU");
-        transaction.commit();
+        //NiuFragment niu = new NiuFragment();
+        //FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        //transaction.add(niu, "NIU");
+        //transaction.commit();
 
     }
 
@@ -94,9 +102,9 @@ public class MainActivity extends AppCompatActivity
 
     }
 
-    private NiuFragment getNiuFragment() {
-        return (NiuFragment) getSupportFragmentManager().findFragmentByTag("NIU");
-    }
+    //private NiuFragment getNiuFragment() {
+    //    return (NiuFragment) getSupportFragmentManager().findFragmentByTag("NIU");
+    //}
 
     @Override
     public void onBackPressed() {
