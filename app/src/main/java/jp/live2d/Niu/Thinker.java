@@ -92,8 +92,6 @@ public class Thinker {
             nowEmotion = Emotion.NORMAL;
         }
 
-
-
     }
 
     public Emotion getEmotion() {

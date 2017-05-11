@@ -26,6 +26,7 @@ public class Niu {
 
     SharedPreferences prefs = null;
 
+
     public Niu(Context context, SharedPreferences prefs) {
         this.context = context;
         this.prefs = prefs;
