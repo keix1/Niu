@@ -1,0 +1,246 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .checkstyle
+* .idea\
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\misc.xml
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\lint.xml
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\assets\
+* app\src\main\assets\image\
+* app\src\main\assets\image\back_class_normal.png
+* app\src\main\assets\live2d\
+* app\src\main\assets\live2d\haru\
+* app\src\main\assets\live2d\haru\expressions\
+* app\src\main\assets\live2d\haru\expressions\F00.exp.json
+* app\src\main\assets\live2d\haru\expressions\F01.exp.json
+* app\src\main\assets\live2d\haru\expressions\F02.exp.json
+* app\src\main\assets\live2d\haru\expressions\F03.exp.json
+* app\src\main\assets\live2d\haru\expressions\F04.exp.json
+* app\src\main\assets\live2d\haru\expressions\F05.exp.json
+* app\src\main\assets\live2d\haru\expressions\F06.exp.json
+* app\src\main\assets\live2d\haru\expressions\F07.exp.json
+* app\src\main\assets\live2d\haru\haru.model.json
+* app\src\main\assets\live2d\haru\haru.physics.json
+* app\src\main\assets\live2d\haru\haru.pose.json
+* app\src\main\assets\live2d\haru\haru_01.1024\
+* app\src\main\assets\live2d\haru\haru_01.1024\texture_00.png
+* app\src\main\assets\live2d\haru\haru_01.1024\texture_01.png
+* app\src\main\assets\live2d\haru\haru_01.1024\texture_02.png
+* app\src\main\assets\live2d\haru\haru_01.moc
+* app\src\main\assets\live2d\haru\haru_01.model.json
+* app\src\main\assets\live2d\haru\haru_02.1024\
+* app\src\main\assets\live2d\haru\haru_02.1024\texture_00.png
+* app\src\main\assets\live2d\haru\haru_02.1024\texture_01.png
+* app\src\main\assets\live2d\haru\haru_02.1024\texture_02.png
+* app\src\main\assets\live2d\haru\haru_02.moc
+* app\src\main\assets\live2d\haru\haru_02.model.json
+* app\src\main\assets\live2d\haru\motions\
+* app\src\main\assets\live2d\haru\motions\flickHead_00.mtn
+* app\src\main\assets\live2d\haru\motions\idle_00.mtn
+* app\src\main\assets\live2d\haru\motions\idle_01.mtn
+* app\src\main\assets\live2d\haru\motions\idle_02.mtn
+* app\src\main\assets\live2d\haru\motions\pinchIn_00.mtn
+* app\src\main\assets\live2d\haru\motions\pinchOut_00.mtn
+* app\src\main\assets\live2d\haru\motions\shake_00.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_00.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_01.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_02.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_03.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_04.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_05.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_06.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_07.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_08.mtn
+* app\src\main\assets\live2d\haru\motions\tapBody_09.mtn
+* app\src\main\assets\live2d\haru\sounds\
+* app\src\main\assets\live2d\haru\sounds\flickHead_00.wav
+* app\src\main\assets\live2d\haru\sounds\pinchIn_00.wav
+* app\src\main\assets\live2d\haru\sounds\pinchOut_00.wav
+* app\src\main\assets\live2d\haru\sounds\shake_00.wav
+* app\src\main\assets\live2d\haru\sounds\tapBody_00.wav
+* app\src\main\assets\live2d\haru\sounds\tapBody_01.wav
+* app\src\main\assets\live2d\haru\sounds\tapBody_02.wav
+* app\src\main\assets\live2d\shizuku\
+* app\src\main\assets\live2d\shizuku\expressions\
+* app\src\main\assets\live2d\shizuku\expressions\F00.exp.json
+* app\src\main\assets\live2d\shizuku\expressions\F01.exp.json
+* app\src\main\assets\live2d\shizuku\expressions\F02.exp.json
+* app\src\main\assets\live2d\shizuku\expressions\F03.exp.json
+* app\src\main\assets\live2d\shizuku\motions\
+* app\src\main\assets\live2d\shizuku\motions\flickHead_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\flickHead_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\flickHead_02.mtn
+* app\src\main\assets\live2d\shizuku\motions\idle_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\idle_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\idle_02.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchIn_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchIn_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchIn_02.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchOut_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchOut_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\pinchOut_02.mtn
+* app\src\main\assets\live2d\shizuku\motions\shake_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\shake_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\shake_02.mtn
+* app\src\main\assets\live2d\shizuku\motions\tapBody_00.mtn
+* app\src\main\assets\live2d\shizuku\motions\tapBody_01.mtn
+* app\src\main\assets\live2d\shizuku\motions\tapBody_02.mtn
+* app\src\main\assets\live2d\shizuku\shizuku.1024\
+* app\src\main\assets\live2d\shizuku\shizuku.1024\texture_00.png
+* app\src\main\assets\live2d\shizuku\shizuku.1024\texture_01.png
+* app\src\main\assets\live2d\shizuku\shizuku.1024\texture_02.png
+* app\src\main\assets\live2d\shizuku\shizuku.1024\texture_03.png
+* app\src\main\assets\live2d\shizuku\shizuku.1024\texture_04.png
+* app\src\main\assets\live2d\shizuku\shizuku.moc
+* app\src\main\assets\live2d\shizuku\shizuku.model.json
+* app\src\main\assets\live2d\shizuku\shizuku.physics.json
+* app\src\main\assets\live2d\shizuku\shizuku.pose.json
+* app\src\main\assets\live2d\shizuku\sounds\
+* app\src\main\assets\live2d\shizuku\sounds\flickHead_00.wav
+* app\src\main\assets\live2d\shizuku\sounds\flickHead_01.wav
+* app\src\main\assets\live2d\shizuku\sounds\flickHead_02.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchIn_00.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchIn_01.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchIn_02.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchOut_00.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchOut_01.wav
+* app\src\main\assets\live2d\shizuku\sounds\pinchOut_02.wav
+* app\src\main\assets\live2d\shizuku\sounds\shake_00.wav
+* app\src\main\assets\live2d\shizuku\sounds\shake_01.wav
+* app\src\main\assets\live2d\shizuku\sounds\shake_02.wav
+* app\src\main\assets\live2d\shizuku\sounds\tapBody_00.wav
+* app\src\main\assets\live2d\shizuku\sounds\tapBody_01.wav
+* app\src\main\assets\live2d\shizuku\sounds\tapBody_02.wav
+* app\src\main\assets\live2d\wanko\
+* app\src\main\assets\live2d\wanko\motions\
+* app\src\main\assets\live2d\wanko\motions\idle_00.mtn
+* app\src\main\assets\live2d\wanko\motions\idle_01.mtn
+* app\src\main\assets\live2d\wanko\motions\idle_02.mtn
+* app\src\main\assets\live2d\wanko\motions\idle_03.mtn
+* app\src\main\assets\live2d\wanko\motions\shake_00.mtn
+* app\src\main\assets\live2d\wanko\motions\shake_01.mtn
+* app\src\main\assets\live2d\wanko\motions\tapBody_00.mtn
+* app\src\main\assets\live2d\wanko\motions\tapBody_01.mtn
+* app\src\main\assets\live2d\wanko\motions\tapBody_02.mtn
+* app\src\main\assets\live2d\wanko\wanko.1024\
+* app\src\main\assets\live2d\wanko\wanko.1024\texture_00.png
+* app\src\main\assets\live2d\wanko\wanko.moc
+* app\src\main\assets\live2d\wanko\wanko.model.json
+* app\src\main\java\
+* app\src\main\java\jp\
+* app\src\main\java\jp\live2d\
+* app\src\main\java\jp\live2d\framework\
+* app\src\main\java\jp\live2d\framework\IPlatformManager.java
+* app\src\main\java\jp\live2d\framework\L2DBaseModel.java
+* app\src\main\java\jp\live2d\framework\L2DExpressionMotion.java
+* app\src\main\java\jp\live2d\framework\L2DEyeBlink.java
+* app\src\main\java\jp\live2d\framework\L2DMatrix44.java
+* app\src\main\java\jp\live2d\framework\L2DModelMatrix.java
+* app\src\main\java\jp\live2d\framework\L2DMotionManager.java
+* app\src\main\java\jp\live2d\framework\L2DPhysics.java
+* app\src\main\java\jp\live2d\framework\L2DPose.java
+* app\src\main\java\jp\live2d\framework\L2DStandardID.java
+* app\src\main\java\jp\live2d\framework\L2DTargetPoint.java
+* app\src\main\java\jp\live2d\framework\L2DViewMatrix.java
+* app\src\main\java\jp\live2d\framework\Live2DFramework.java
+* app\src\main\java\jp\live2d\sample\
+* app\src\main\java\jp\live2d\sample\LAppDefine.java
+* app\src\main\java\jp\live2d\sample\LAppLive2DManager.java
+* app\src\main\java\jp\live2d\sample\LAppModel.java
+* app\src\main\java\jp\live2d\sample\LAppRenderer.java
+* app\src\main\java\jp\live2d\sample\LAppView.java
+* app\src\main\java\jp\live2d\sample\PlatformManager.java
+* app\src\main\java\jp\live2d\sample\SampleApplication.java
+* app\src\main\java\jp\live2d\utils\
+* app\src\main\java\jp\live2d\utils\android\
+* app\src\main\java\jp\live2d\utils\android\AccelHelper.java
+* app\src\main\java\jp\live2d\utils\android\BufferUtil.java
+* app\src\main\java\jp\live2d\utils\android\FileManager.java
+* app\src\main\java\jp\live2d\utils\android\ImageClip.java
+* app\src\main\java\jp\live2d\utils\android\LoadUtil.java
+* app\src\main\java\jp\live2d\utils\android\ModelSetting.java
+* app\src\main\java\jp\live2d\utils\android\ModelSettingJson.java
+* app\src\main\java\jp\live2d\utils\android\OffscreenImage.java
+* app\src\main\java\jp\live2d\utils\android\SimpleImage.java
+* app\src\main\java\jp\live2d\utils\android\SoundManager.java
+* app\src\main\java\jp\live2d\utils\android\TouchManager.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\icon.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\icon.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\icon.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\icon.png
+* app\src\main\res\drawable-xhdpi\icon_gear.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\activity_main.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* C:\Users\keiichi\Documents\Live2D_SDK_Android_2.0.06_1_jp\framework\ => app\src\main\java\
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets\
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

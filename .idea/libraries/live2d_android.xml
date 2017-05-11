@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="live2d_android">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/src/main/java/jp/live2d/framework/live2d_android.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
