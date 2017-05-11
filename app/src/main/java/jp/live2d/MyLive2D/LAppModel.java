@@ -432,6 +432,19 @@ public class LAppModel extends L2DBaseModel
 	}
 
 
+	/*
+	 */
+	public void setExpressionNo(int no)
+	{
+		//int no=(int)(Math.random() * expressions.size());
+
+		String[] keys = expressions.keySet().toArray(new String[expressions.size()]);
+
+		setExpression(keys[no]);
+	}
+
+
+
 	public void draw(GL10 gl)
 	{
 		((Live2DModelAndroid) live2DModel).setGL(gl);// OpenGLのコンテキストをLive2Dモデルに設定

@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\keiichi\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.3.1\ecb6e1f8e4b0e84c4b886c2f14a1500caf309757\gson-2.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\keiichi\Documents\GitHub\Niu\app\build\intermediates\pre-dexed\debug\gson-2.3.1_c02e672125d9b6127259779a67caefb22381b5d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\keiichi\Documents\Live2D_SDK_Android_2.0.06_1_jp\sample\sampleApp1\app\src\main\java\jp\live2d\framework\live2d_android.jar"
         jumboMode="false"
         optimize="true"

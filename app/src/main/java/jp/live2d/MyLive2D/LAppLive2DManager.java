@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import javax.microedition.khronos.opengles.GL10;
 
 import jp.live2d.Live2D;
+import jp.live2d.Niu.Emotion;
 import jp.live2d.Niu.MainActivity;
 import jp.live2d.framework.L2DViewMatrix;
 import jp.live2d.framework.Live2DFramework;
@@ -209,18 +210,34 @@ public class LAppLive2DManager
 		}
 	}
 
-	public boolean niuAction(int no) {
-        if(no==1)
-        {
-            // 顔をタップしたら姿勢変え
-            if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap face.");
-            models.get(0).startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY, LAppDefine.PRIORITY_NORMAL );
-        }
-        else if(no==2)
-        {
-            if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap body.");
-            models.get(0).setRandomExpression();
-        }
+	public boolean takeAction(Emotion trigger) {
+		switch (trigger) {
+			case HAPPY:
+                // 顔をタップしたら姿勢変え
+                models.get(0).startMotion(LAppDefine.MOTION_GROUP_TAP_BODY, 1, LAppDefine.PRIORITY_NORMAL ); //ん？なんですかー？
+				models.get(0).setExpressionNo(6); // 目ほそい笑顔
+                if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap face.");
+                //models.get(0).setExpressionNo(1); //ちょっと笑み
+                //models.get(0).startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY, LAppDefine.PRIORITY_NORMAL );
+				//models.get(0).startMotion(LAppDefine.MOTION_GROUP_TAP_BODY, 0, LAppDefine.PRIORITY_NORMAL ); //何かついてますかー？
+				break;
+			case SAD:
+				//models.get(0).setExpressionNo(3); //浮かない顔
+				models.get(0).setExpressionNo(5); // 落ち込み顔
+				break;
+			case FUNNY:
+				if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap body.");
+                models.get(0).startMotion(LAppDefine.MOTION_GROUP_TAP_BODY, 2, LAppDefine.PRIORITY_NORMAL ); //触りたいんですかー？
+				models.get(0).setExpressionNo(2); //てれ顔
+				break;
+			case NORMAL:
+				//models.get(0).setExpressionNo(4); //怒った顔
+				models.get(0).setExpressionNo(0); //ふつう顔
+				//models.get(0).setExpressionNo(7); // ちょい驚き
+				break;
+		}
+
+
 		return true;
     }
 

@@ -15,6 +15,7 @@ import jp.live2d.utils.android.FileManager;
 import jp.live2d.utils.android.SoundManager;
 import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -30,6 +31,12 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /*
  * SampleApplicationはActivityを継承し、サンプル・アプリケーションのエントリポイント（メインのActivityクラス）となります。
@@ -89,13 +96,28 @@ public class MainActivity extends Activity
       	FileManager.init(this.getApplicationContext());
 
         niuInit();
-    }
 
-    void niuInit() {
+
+		// 読み出し
+		SharedPreferences preferences = getSharedPreferences("key", Activity.MODE_PRIVATE);
+//		Gson gson = new Gson();
+//		HashMap<String, String> mydata = gson.fromJson(preferences.getString("ok",""), new TypeToken<HashMap<String, String>>(){}.getType());
+//		if(mydata!=null) {
+//			for(Map.Entry e : mydata.entrySet()) {
+//				Log.d("OKOK","キー : " + e.getKey() + "  バリュー : " + e.getValue());
+//			}
+//		}
+
 
         //TODO: SharedPreferenceをNiuに渡す
         //SharedPreferences sharedPreferences = getSharedPreferences("pref", Context.MODE_PRIVATE);
-        niu = new Niu(instance);
+        niu = new Niu(instance, preferences);
+		niu.setLive2DManager(live2DMgr);
+
+
+    }
+
+    void niuInit() {
 
         talk_button = (Button) findViewById(R.id.talk_button);
         ClickListener listener = new ClickListener();
@@ -106,7 +128,7 @@ public class MainActivity extends Activity
 //                     niu.say();
 //
 //                    //にうの意志をテキストベースで回収し、表示
-//                    output_word.setText(niu.getWill(input_word.getText().toString()));
+//                    output_word.setText(niu.getWord(input_word.getText().toString()));
 //                    input_word.getEditableText().clear();
 //            }
 //        });
@@ -128,7 +150,7 @@ public class MainActivity extends Activity
                     niu.say();
 
                     //にうの意志をテキストベースで回収し、表示
-                    output_word.setText(niu.getWill(input_word.getText().toString()));
+                    output_word.setText(niu.getWord(input_word.getText().toString()));
                     input_word.getEditableText().clear();
 
                     return true;
@@ -137,7 +159,9 @@ public class MainActivity extends Activity
             }
         });
 
-        //フラグメント関連処理
+
+
+		//フラグメント関連処理
         //NiuFragment niu = new NiuFragment();
         //FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         //transaction.add(niu, "NIU");
@@ -181,7 +205,7 @@ public class MainActivity extends Activity
                 case R.id.talk_button:
                      niu.say();
                     //にうの意志をテキストベースで回収し、表示
-                    output_word.setText(niu.getWill(input_word.getText().toString()));
+                    output_word.setText(niu.getWord(input_word.getText().toString()));
                     input_word.getEditableText().clear();
             }
 

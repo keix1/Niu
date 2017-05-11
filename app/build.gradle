@@ -20,5 +20,6 @@ android {
 
 dependencies {
     compile 'com.android.support:support-v4:18.0.0'
+    compile 'com.google.code.gson:gson:2.3.1'
     compile files('src/main/java/jp/live2d/framework/live2d_android.jar')
 }

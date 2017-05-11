@@ -7,8 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 49,
-                    "endOffset": 100
+                    "endColumn": 39,
+                    "endOffset": 90
                 },
                 "from": {
                     "file": "C:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\src\\main\\res\\values\\strings.xml",
@@ -16,8 +16,8 @@
                         "startLine": 1,
                         "startColumn": 4,
                         "startOffset": 17,
-                        "endColumn": 49,
-                        "endOffset": 62
+                        "endColumn": 39,
+                        "endOffset": 52
                     }
                 }
             },
@@ -25,19 +25,12 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 105,
+                    "startOffset": 95,
                     "endColumn": 57,
-                    "endOffset": 158
+                    "endOffset": 148
                 },
                 "from": {
-                    "file": "C:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\src\\main\\res\\values\\styles.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 19,
-                        "endColumn": 58,
-                        "endOffset": 73
-                    }
+                    "file": "C:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]

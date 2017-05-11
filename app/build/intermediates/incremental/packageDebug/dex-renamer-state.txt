@@ -1,4 +1,4 @@
-#Thu May 11 20:23:53 JST 2017
+#Fri May 12 00:40:39 JST 2017
 base.0=C\:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=C\:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
