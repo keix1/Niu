@@ -209,6 +209,21 @@ public class LAppLive2DManager
 		}
 	}
 
+	public boolean niuAction(int no) {
+        if(no==1)
+        {
+            // 顔をタップしたら姿勢変え
+            if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap face.");
+            models.get(0).startRandomMotion(LAppDefine.MOTION_GROUP_TAP_BODY, LAppDefine.PRIORITY_NORMAL );
+        }
+        else if(no==2)
+        {
+            if(LAppDefine.DEBUG_LOG)Log.d(TAG, "Tap body.");
+            models.get(0).setRandomExpression();
+        }
+		return true;
+    }
+
 
 	//=========================================================
 	// 	アプリケーションからのサンプルイベント

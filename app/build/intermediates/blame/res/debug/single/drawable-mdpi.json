@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "C:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\keiichi\\Documents\\Live2D_SDK_Android_2.0.06_1_jp\\sample\\sampleApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
         "source": "C:\\Users\\keiichi\\Documents\\Live2D_SDK_Android_2.0.06_1_jp\\sample\\sampleApp1\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
     }

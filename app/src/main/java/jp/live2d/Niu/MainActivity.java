@@ -50,7 +50,7 @@ public class MainActivity extends Activity
 
     private InputMethodManager inputMethodManager;
 
-    private Niu niu = null;
+    static private Niu niu = null;
 
 	public MainActivity( )
 	{
@@ -98,16 +98,18 @@ public class MainActivity extends Activity
         niu = new Niu(instance);
 
         talk_button = (Button) findViewById(R.id.talk_button);
-        talk_button.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                     niu.say();
-
-                    //にうの意志をテキストベースで回収し、表示
-                    output_word.setText(niu.getWill(input_word.getText().toString()));
-                    input_word.getEditableText().clear();
-            }
-        });
+        ClickListener listener = new ClickListener();
+        talk_button.setOnClickListener(listener);
+//        talk_button.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                     niu.say();
+//
+//                    //にうの意志をテキストベースで回収し、表示
+//                    output_word.setText(niu.getWill(input_word.getText().toString()));
+//                    input_word.getEditableText().clear();
+//            }
+//        });
 
         //文字列入力して返答するGUI
         output_word = (TextView) findViewById(R.id.output_word);
@@ -171,8 +173,18 @@ public class MainActivity extends Activity
 
 		@Override
 		public void onClick(View v) {
-			Toast.makeText(getApplicationContext(), "change model", Toast.LENGTH_SHORT).show();
-			live2DMgr.changeModel();//Live2D Event
+			switch (v.getId()) {
+                case R.id.imageButton1:
+                    Toast.makeText(getApplicationContext(), "change model", Toast.LENGTH_SHORT).show();
+                    live2DMgr.changeModel();//Live2D Event
+                    break;
+                case R.id.talk_button:
+                     niu.say();
+                    //にうの意志をテキストベースで回収し、表示
+                    output_word.setText(niu.getWill(input_word.getText().toString()));
+                    input_word.getEditableText().clear();
+            }
+
 		}
 	}
 

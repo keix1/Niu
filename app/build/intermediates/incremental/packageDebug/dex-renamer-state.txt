@@ -1,4 +1,4 @@
-#Thu May 11 20:03:57 JST 2017
-base.0=C\:\\Users\\keiichi\\Documents\\Live2D_SDK_Android_2.0.06_1_jp\\sample\\sampleApp1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu May 11 20:23:53 JST 2017
+base.0=C\:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\keiichi\\Documents\\Live2D_SDK_Android_2.0.06_1_jp\\sample\\sampleApp1\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\keiichi\\Documents\\GitHub\\Niu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
